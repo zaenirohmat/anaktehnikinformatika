@@ -1,0 +1,9 @@
+	body{
+		background-color: #c88d50;
+	/*background: linear-gradient(to top left, green, red, green, red);*/
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	font-family: calibri;
+	color:white;
+}
