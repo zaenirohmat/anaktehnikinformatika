@@ -1,9 +1,39 @@
-	body{
+	/*body{
 		background-color: #c88d50;
-	/*background: linear-gradient(to top left, green, red, green, red);*/
+	background: linear-gradient(to top left, green, red, green, red);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 	font-family: calibri;
 	color:white;
+}*/
+@import url('https://fonts.googleapis.com/css2? family= Iklim+Krisis & display=swap');
+h1 {
+	font-family: 'Climate Crisis', cursive;
+	color: rgb(255, 1, 1);
 }
+:root {
+	--pink: rgb(64, 255, 0);
+}
+#navbarNav ul li a{color: #f1ad00;}
+#log {color: #f5a403;}
+.card img {
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+.card img:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+/* footer */
+footer .brand {
+	letter-spacing: 2px;
+  }
+  footer a {
+	transition: color 0.3s ease;
+  }
+  footer a:hover {
+	color: var(--pink) !important;
+  }
